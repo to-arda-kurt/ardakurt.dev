@@ -1,0 +1,38 @@
+.hero {
+  width: 100rem;
+  margin: 0 auto;
+  padding-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.textWrapper {
+  max-width: 59.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heroTitle {
+  font-family: IBM Plex Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.2rem;
+  line-height: 9.4rem;
+}
+
+.heroText {
+  font-family: IBM Plex Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.heroImage {
+  width: 32.8rem;
+  height: 37.5rem;
+  border-radius: 0.8rem;
+  background-color: gray;
+}
