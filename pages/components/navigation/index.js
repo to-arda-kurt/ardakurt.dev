@@ -6,10 +6,8 @@ const Navigation = () => {
     <nav className={styles.navigation}>
       <div className={styles.navigationWrapper}>
         <Logo />
-        <div className={styles.menuWrapper}>
-          <div>Navigation</div>
-          <div>Social Menu</div>
-        </div>
+        <div>Navigation</div>
+        <div>Social Menu</div>
       </div>
     </nav>
   );

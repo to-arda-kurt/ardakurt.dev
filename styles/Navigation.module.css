@@ -1,26 +1,19 @@
 .navigation {
   background-color: var(--color-primary);
-  height: 7.2rem;
+  height: 6.2rem;
+  font-family: var(--main-font-family);
+  padding: var(--main-left-right-padding);
 }
 
 .navigationWrapper {
-  max-width: 100rem;
+  max-width: var(--page-width);
   height: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .Logo {
-  width: 18.3rem;
-  font-size: 1.8rem;
+  font-size: var(--main-logo-font);
   font-weight: 300;
-}
-
-.menuWrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
 }

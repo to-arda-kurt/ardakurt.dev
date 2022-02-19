@@ -15,8 +15,8 @@ export default function Home() {
         <Navigation />
         <HomePage />
       </main>
-
-      <footer className={styles.footer}>footer</footer>
+      {/* 
+      <footer className={styles.footer}>footer</footer> */}
     </div>
   );
 }

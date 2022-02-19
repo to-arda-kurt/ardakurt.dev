@@ -1,23 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 :root {
+  /* Global Colours */
   --color-primary: #fff1e5;
   --color-secondary: #fff9f4;
   --color-black: black;
   --color-white: white;
   --color-gray: #696969;
+  --color-secondary-gray: #c4c4c4;
+  /* Global Settings */
+  --page-width: 1000px;
+  --main-font-family: 'IBM Plex Mono', sans-serif;
+  --secondary-font-family: 'IBM Plex Serif', sans-serif;
+  --main-logo-font: 1.8rem;
+  --main-left-right-padding: 0 2rem;
 }
+
 * {
   padding: 0;
   margin: 0;
+  cursor: default;
 }
 html,
 body {
   box-sizing: border-box;
-
-  font-family: 'IBM Plex Mono', sans-serif;
   background: var(--color-secondary);
   font-size: 10px;
+  --webkit-font-smoothing: antialiased;
 }
 
 a {
