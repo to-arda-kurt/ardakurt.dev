@@ -1,21 +1,14 @@
+import { Card } from '../../../components/cards/card';
 import Hero from '../../../components/hero';
+import { SectionHeader } from '../../../components/section-header';
+import Cards from '../../../components/cards';
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-
-      {/* <div>
-        Last Projects
-        <div>Last projects header</div>
-        <div>Last Projects featured</div>
-      </div>
-
-      <div>
-        Last Articles
-        <div>Last Articles header</div>
-        <div>Last Articles featured</div>
-      </div> */}
+      <SectionHeader />
+      <Cards />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import { Logo } from './logo';
-import styles from '../../styles/Navigation.module.css';
+import styles from '../../styles/components/Navigation.module.css';
 import { ThemeChanger } from './theme-changer';
 
 const Navigation = () => {

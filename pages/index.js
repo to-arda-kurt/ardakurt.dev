@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <PageHeader />
+      <Navigation />
       <main className={styles.main}>
-        <Navigation />
         <HomePage />
       </main>
       {/* 

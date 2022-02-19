@@ -3,7 +3,11 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider storageKey="theme" enableSystem={true}>
+    <ThemeProvider
+      storageKey="theme"
+      enableSystem={true}
+      disableTransitionOnChange={false}
+    >
       <Component {...pageProps} />
     </ThemeProvider>
   );
