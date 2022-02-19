@@ -6,6 +6,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: var(--main-left-right-padding);
+  color: var(--text-color-primary);
 }
 
 .textWrapper {
