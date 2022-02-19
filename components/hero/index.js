@@ -1,7 +1,7 @@
 import Button from '../button';
 import Image from 'next/image';
 
-import styles from '../../../styles/Hero.module.css';
+import styles from '../../styles/Hero.module.css';
 
 const Hero = () => {
   return (

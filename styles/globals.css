@@ -16,6 +16,22 @@
   --main-left-right-padding: 0 2rem;
 }
 
+:root[data-theme='dark'] {
+  /* Global Colours */
+  --color-primary: #000000;
+  --color-secondary: #525252;
+  --color-black: #ffffff;
+  --color-white: rgb(0, 0, 0);
+  --color-gray: #cccccc;
+  --color-secondary-gray: #eeeeee;
+  /* Global Settings */
+  --page-width: 1000px;
+  --main-font-family: 'IBM Plex Mono', sans-serif;
+  --secondary-font-family: 'IBM Plex Serif', sans-serif;
+  --main-logo-font: 1.8rem;
+  --main-left-right-padding: 0 2rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -25,6 +41,17 @@ html,
 body {
   box-sizing: border-box;
   background: var(--color-secondary);
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  background: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  height: 100vh;
   font-size: 10px;
   --webkit-font-smoothing: antialiased;
 }

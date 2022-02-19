@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../../styles/components/Button.module.css';
+import styles from '../../styles/components/Button.module.css';
 
 const Button = ({ type, toGo, text }) => {
   return (

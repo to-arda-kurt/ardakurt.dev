@@ -1,5 +1,6 @@
 import { Logo } from './logo';
-import styles from '../../../styles/Navigation.module.css';
+import styles from '../../styles/Navigation.module.css';
+import { ThemeChanger } from './theme-changer';
 
 const Navigation = () => {
   return (
@@ -7,7 +8,7 @@ const Navigation = () => {
       <div className={styles.navigationWrapper}>
         <Logo />
         <div>Navigation</div>
-        <div>Social Menu</div>
+        <ThemeChanger />
       </div>
     </nav>
   );

@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { PageHeader } from './utils/page-header';
-import Navigation from './components/navigation';
+import { PageHeader } from '../utils/page-header';
+import Navigation from '../components/navigation';
 import HomePage from './views/home-page';
 
 import styles from '../styles/Home.module.css';
