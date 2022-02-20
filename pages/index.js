@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { PageHeader } from '../utils/page-header';
+import { PageHeader } from '../components/utils/page-header';
 import { Footer } from '../components/footer';
 import Navigation from '../components/navigation';
 import HomePage from './views/home-page';
