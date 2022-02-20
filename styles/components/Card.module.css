@@ -1,0 +1,58 @@
+.Card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.5rem;
+  gap: 2rem;
+}
+
+.CardImage {
+  width: 38.8rem;
+  height: 18.4rem;
+  background-color: var(--image-filler);
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.CardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18.4rem;
+  gap: 1rem;
+}
+
+.CardInfoHeader {
+  font-family: var(--main-font-family);
+  color: var(--text-color-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.8rem;
+  line-height: 3.1rem;
+}
+
+.CardInfoStack,
+.CardInfoText {
+  color: var(--text-color-secondary);
+}
+
+.CardInfoStack {
+  font-family: var(--secondary-font-family);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.CardInfoText {
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.CardInfoButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2rem;
+}

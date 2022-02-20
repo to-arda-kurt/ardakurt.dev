@@ -7,7 +7,9 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      <SectionHeader />
+      <SectionHeader title="Last Projects" button="All Projects" />
+      <Cards />
+      <SectionHeader title="Last Articles" button="All Articles" />
       <Cards />
     </>
   );

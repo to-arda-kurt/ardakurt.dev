@@ -1,15 +1,12 @@
 .Section {
-  max-width: var(--page-width);
-  margin: 0 auto;
   margin-top: 3.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--text-color-primary);
   height: 4.1remv;
   color: var(--text-color-primary);
-  transition: var(--theme-transition);
 }
 
 .Section h1 {

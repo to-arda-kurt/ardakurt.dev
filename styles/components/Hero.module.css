@@ -1,11 +1,8 @@
 .hero {
-  max-width: var(--page-width);
-  margin: 0 auto;
   margin-top: 9.7rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: var(--main-left-right-padding);
   color: var(--text-color-primary);
 }
 
@@ -30,12 +27,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2.4rem;
-  line-height: 2.4rem;
+  line-height: 3.1rem;
 }
 
 .heroImage {
   width: 32.8rem;
   height: 37.5rem;
   border-radius: 0.8rem;
-  background-color: gray;
+  background-color: var(--image-filler);
 }

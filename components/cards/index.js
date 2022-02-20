@@ -2,9 +2,11 @@ import { Card } from './card';
 
 const Cards = (props) => {
   return (
-    <div>
+    <section>
       <Card />
-    </div>
+      <Card />
+      <Card />
+    </section>
   );
 };
 

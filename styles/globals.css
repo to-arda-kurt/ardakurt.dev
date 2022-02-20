@@ -8,13 +8,15 @@
   --color-white: white;
   --color-gray: #696969;
   --color-secondary-gray: #c4c4c4;
+  --text-color-secondary: #696969;
   --text-color-primary: black;
+  --button-border: #696969;
+  --image-filler: #696969;
   /* Global Settings */
   --page-width: 1000px;
   --main-font-family: 'IBM Plex Mono', sans-serif;
   --secondary-font-family: 'IBM Plex Serif', sans-serif;
   --main-logo-font: 1.8rem;
-  --main-left-right-padding: 0 2rem;
 
   --theme-transition: all 0.8 cubic-bezier(0.42, 0, 0.58, 1);
 }
@@ -22,12 +24,15 @@
 :root[data-theme='dark'] {
   /* Global Colours */
   --color-primary: #171717;
-  --color-secondary: #575db7;
+  --color-secondary: #171717;
   --color-black: #fff1e5;
   --color-white: #fff1e5;
   --color-gray: #cccccc;
   --color-secondary-gray: #eeeeee;
   --text-color-primary: #ffc864;
+  --text-color-secondary: #c4c4c4;
+  --button-border: #ffc864;
+  --image-filler: #ffc864;
   /* Global Settings */
   --page-width: 1000px;
   --main-font-family: 'IBM Plex Mono', sans-serif;
@@ -44,7 +49,7 @@
 html,
 body {
   box-sizing: border-box;
-  background: var(--color-primary);
+  background: var(--color-secondary);
 
   height: 100vh;
   font-size: 10px;

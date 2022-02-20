@@ -1,0 +1,15 @@
+.Footer {
+  background-color: var(--color-primary);
+  height: 15.3rem;
+  font-family: var(--main-font-family);
+  border-top: 1px solid var(--color-secondary-gray);
+  width: 100%;
+  color: var(--text-color-primary);
+  margin-top: 10.5rem;
+}
+
+.FooterWrapper {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  height: 100%;
+}
