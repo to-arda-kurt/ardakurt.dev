@@ -1,0 +1,20 @@
+.Menu {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.Menu ul {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 4rem;
+}
+.Menu ul li {
+  list-style: none;
+}
+
+.Menu a {
+  cursor: pointer;
+}

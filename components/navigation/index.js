@@ -1,4 +1,5 @@
 import { Logo } from './logo';
+import { Menu } from './menu';
 import styles from '../../styles/components/Navigation.module.css';
 import { ThemeChanger } from './theme-changer';
 
@@ -7,7 +8,7 @@ const Navigation = () => {
     <nav className={styles.navigation}>
       <div className={styles.navigationWrapper}>
         <Logo />
-        <div>Navigation</div>
+        <Menu />
         <ThemeChanger />
       </div>
     </nav>

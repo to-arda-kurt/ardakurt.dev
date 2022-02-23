@@ -1,6 +1,4 @@
 .main {
   max-width: var(--page-width);
   margin: 0 auto;
-  /* IT WILL REMOVE LATER  */
-  margin-top: 20rem;
 }

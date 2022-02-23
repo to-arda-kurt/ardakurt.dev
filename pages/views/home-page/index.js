@@ -3,7 +3,9 @@ import Hero from '../../../components/hero';
 import { SectionHeader } from '../../../components/section-header';
 import Cards from '../../../components/cards';
 
-const HomePage = () => {
+import { last3post } from '../../../lib/api';
+
+const HomePage = (i) => {
   return (
     <>
       <Hero />
@@ -16,3 +18,13 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+export async function getStaticProps() {
+  const allPosts = await last3post();
+
+  return {
+    props: {
+      allPosts,
+    },
+  };
+}
